@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from "./components/NavBar"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import "./css/NavBar.css"
+import "./css/Main.css"
 import './App.css';
 import Home from "./pages/home"
 import Reports from "./pages/reports"
@@ -18,6 +18,7 @@ function App() {
           <Route path='/products' exact component={Products} />
         </Switch>
       </Router>
+
     </>
   );
 }
